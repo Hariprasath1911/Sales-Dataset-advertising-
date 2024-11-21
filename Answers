@@ -1,3 +1,9 @@
 #1 Code:
-top_store = df_ads.loc[df_ads['sales'].idxmax()]
-top_store
+top_store = df_ads.loc[df_ads['sales'].idxmax()]  #getting the max value from sales column
+top_store                                         # printing the max sales store details
+
+#2:
+Null_data=df_ads.isnull().sum()                   # calculating how many null data in entire data
+
+#3:
+df_ads.describe()                                 # This command gives the Mean, Standard deviation and some basic calculation for entire table
