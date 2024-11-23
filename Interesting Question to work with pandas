@@ -5,3 +5,5 @@ some interesting questions to work on using Pandas in Python with this dataset
 #2: Missing Values: Are there any missing values in the dataset? If yes, how can they be handled?
 
 #3: Summary Statistics: What are the mean, median, and standard deviation for each type of advertising (TV, radio, newspaper) and sales?
+
+#4: idnetify top 5 store that are spening high money on advertising?
