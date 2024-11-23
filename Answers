@@ -7,3 +7,7 @@ Null_data=df_ads.isnull().sum()                   # calculating how many null da
 
 #3:
 df_ads.describe()                                 # This command gives the Mean, Standard deviation and some basic calculation for entire table
+
+#4:
+df_ads["total_spent"]=df_ads["TV"]+df_ads["newspaper"]+df_ads["sales"]        # Adding one more column in the data set to calculate the total spending of each store
+df_ads.nlargest(5,"total_spent")                                              # Filtering the top 5 store on the total_spent
